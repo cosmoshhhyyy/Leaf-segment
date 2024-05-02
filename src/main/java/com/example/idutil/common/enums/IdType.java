@@ -6,8 +6,6 @@ import lombok.Getter;
 /**
  * id类型
  *
- * @author cong.zhen
- * @date 2024/02/23
  */
 @Getter
 @AllArgsConstructor

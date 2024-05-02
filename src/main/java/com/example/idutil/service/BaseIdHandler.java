@@ -9,8 +9,6 @@ import javax.annotation.Resource;
 /**
  * 基本id处理程序
  *
- * @author cong.zhen
- * @date 2024/02/23
  */
 @Slf4j
 @Component

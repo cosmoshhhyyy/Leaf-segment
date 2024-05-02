@@ -3,8 +3,6 @@ package com.example.idutil.service;
 /**
  * id
  *
- * @author cong.zhen
- * @date 2024/02/23
  */
 public interface IIdHandler {
 

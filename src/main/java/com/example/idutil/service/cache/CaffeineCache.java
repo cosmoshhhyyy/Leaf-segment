@@ -1,9 +1,9 @@
 package com.example.idutil.service.cache;
 
+import com.example.idutil.dao.entity.SegmentEntity;
+import com.example.idutil.dao.mapper.SegmentMapper;
 import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
-import com.qcby.idutil.dao.entity.SegmentEntity;
-import com.qcby.idutil.dao.mapper.SegmentMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -15,8 +15,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * 本地缓存
  *
- * @author cong.zhen
- * @date 2024/02/27
  */
 @Component
 @Slf4j

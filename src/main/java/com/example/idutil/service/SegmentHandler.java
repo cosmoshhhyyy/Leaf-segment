@@ -1,23 +1,16 @@
 package com.example.idutil.service;
 
 import cn.hutool.core.util.StrUtil;
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.qcby.idutil.common.enums.IdType;
-import com.qcby.idutil.dao.entity.SegmentEntity;
-import com.qcby.idutil.dao.mapper.SegmentMapper;
-import com.qcby.idutil.domain.exchange.SegmentExchange;
+import com.example.idutil.common.enums.IdType;
+import com.example.idutil.domain.exchange.SegmentExchange;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
-import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * 号段处理程序
  *
- * @author cong.zhen
- * @date 2024/02/26
  */
 @Component
 @Slf4j

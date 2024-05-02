@@ -2,9 +2,9 @@ package com.example.idutil.domain.exchange;
 
 import cn.hutool.core.thread.ThreadFactoryBuilder;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.qcby.idutil.dao.entity.SegmentEntity;
-import com.qcby.idutil.dao.mapper.SegmentMapper;
-import com.qcby.idutil.service.cache.CaffeineCache;
+import com.example.idutil.dao.entity.SegmentEntity;
+import com.example.idutil.dao.mapper.SegmentMapper;
+import com.example.idutil.service.cache.CaffeineCache;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,8 +22,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * 分段交换
  *
- * @author cong.zhen
- * @date 2024/02/25
  */
 @Component
 @Slf4j

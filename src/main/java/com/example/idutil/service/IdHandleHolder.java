@@ -1,7 +1,7 @@
 package com.example.idutil.service;
 
 import cn.hutool.core.util.ObjectUtil;
-import com.qcby.idutil.common.enums.IdType;
+import com.example.idutil.common.enums.IdType;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
@@ -10,8 +10,6 @@ import java.util.Map;
 /**
  * 生成方式--id策略映射关系
  *
- * @author cong.zhen
- * @date 2024/02/23
  */
 @Component
 public class IdHandleHolder {

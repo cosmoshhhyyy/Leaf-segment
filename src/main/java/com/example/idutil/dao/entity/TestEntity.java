@@ -6,8 +6,6 @@ import lombok.Data;
 /**
  * 测试实体
  *
- * @author cong.zhen
- * @date 2024/02/26
  */
 @Data
 @TableName("test")

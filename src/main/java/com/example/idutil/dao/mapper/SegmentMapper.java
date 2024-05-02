@@ -1,14 +1,12 @@
 package com.example.idutil.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.qcby.idutil.dao.entity.SegmentEntity;
+import com.example.idutil.dao.entity.SegmentEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 分段映射器
  *
- * @author cong.zhen
- * @date 2024/02/26
  */
 @Mapper
 public interface SegmentMapper extends BaseMapper<SegmentEntity> {

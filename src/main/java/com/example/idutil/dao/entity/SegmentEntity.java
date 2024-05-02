@@ -8,8 +8,7 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @author cong.zhen
- * @date 2024/02/25
+ * 号段实体
  */
 @Data
 @TableName("leaf_alloc")
