@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.idutil.dao.mapper.SegmentMapper">
+    
+    <update id="updateMaxId">
+        UPDATE leaf_alloc set max_id = max_id + step WHERE business_code = #{businessCode}
+    </update>
+</mapper>
